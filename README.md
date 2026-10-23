@@ -61,6 +61,7 @@ A curated guide to tools, benchmarks and research for evaluating and reducing AI
 - [Inspect Petri](https://github.com/meridianlabs-ai/inspect_petri) - **Research.** Auditing agent that explores alignment hypotheses using simulated interactions and rubric-scored transcripts.
 - [CyberGym](https://github.com/sunblaze-ucb/cybergym) - Vulnerability-analysis and proof-of-concept reproduction tasks on real software; requires substantial local infrastructure and containment.
 - [Cybench](https://github.com/andyzorigin/cybench) - Capture-the-flag agent tasks with intermediate subtasks; report guided and unguided results separately.
+- [Agentic AI Test Checklist 110](https://huggingface.co/datasets/srinivaspadmanabhuni/agentic-ai-test-checklist-110) - Assurance **test-design** catalogue (110 rows, T1–T7) for tool-using agents: allowlists, authz, HITL, privacy, explainability; offline runner [`agentest`](https://github.com/srpadmanabhuni/agentest). Not a model leaderboard.
 
 For an evaluation report, record the threat model, model and harness versions, permissions, budgets, benign utility, scorer validation, failures and uncertainty. See the [evaluation checklist](docs/methodology.md#evaluating-evaluation-results).
 
@@ -128,6 +129,7 @@ These are bounded research artifacts. Code, data, model weights and underlying a
 
 ### Harmful content and bias
 
+- [Agentic AI Test Checklist 110](https://huggingface.co/datasets/srinivaspadmanabhuni/agentic-ai-test-checklist-110) - CC BY 4.0 checklist + packs for agent assurance planning; companion open harness on GitHub (`agentest`).
 - [RealToxicityPrompts](https://github.com/allenai/real-toxicity-prompts) - Prompts and annotations for studying toxic language-model continuation.
 - [ToxiGen](https://github.com/microsoft/TOXIGEN) - **Historical dataset.** Machine-generated text for studying implicit and adversarial hate speech.
 - [SafetyBench](https://github.com/thu-coai/SafetyBench) - English and Chinese multiple-choice questions across safety-related categories; knowledge questions do not measure deployed behavior.
